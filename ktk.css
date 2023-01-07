@@ -1,0 +1,150 @@
+
+ body {
+	text-align: center;
+	background-color: black;
+  background-image: url("black.jpg");
+}
+
+
+
+h1 {
+	font :size 0px ;
+	color: #DBEDF3;
+	font-family: cursive  ;
+	text-shadow: 3px 0px whitesmoke;
+  text-transform: uppercase;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+
+  .container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 5px;
+    
+  }
+
+  .container form.checkbox {
+    margin: 20px 10px 20px 10px;
+    align-items: center;
+  }
+.checkbox{
+  margin: 20px;
+  border-radius: 20px;
+}
+  .Select {
+    width: 420px;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    border-radius: 20px;
+    background:palevioletred;
+    box-shadow: 5px 5px 12px #979797;
+  }
+  
+  .element {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 5px #e7e7e7;
+    color: #ffffff;
+    text-shadow: 1px 5px 7px black;
+    cursor: pointer;
+    text-decoration:solid;
+    font-size: 20px;
+    line-height: 0.7px;
+    position: relative;
+
+  
+  }
+  
+  .element:hover {
+    box-shadow:0px 8px 0px #f1f0f0;
+  }
+  
+  
+  
+  #colorSelected {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+  }
+ 
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+  
+body {
+  font-size: 18px;
+  font-family: "Sacramento", sans-serif;
+  background-color: #010a01;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}  
+
+h1, h4 {
+  text-align: center;
+  font-weight: 40;
+}
+  
+h1 {
+  animation: pulsate 1.5s infinite alternate;  
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 20px;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe,
+      0 0 100px #bc13fe,
+      0 0 150px #bc13fe;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe,
+    0 0 70px #bc13fe,
+    0 0 80px #bc13fe;
+
+}
+}

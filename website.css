@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding-left: 0;;
+}
+
+.logo{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo imG{
+    BORDER:7PX SOLID BLACK;
+    border-radius: 70px;
+    
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+   
+
+
+
+.nav-list{
+    width: 50%;
+    
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 40px;
+
+}
+.nav-list li a{
+    text-decoration: wavy;
+    color:white;
+
+}
+.nav-list li a:hover{
+    text-decoration: wavy;
+    color:greenyellow;
+
+}
+
+.rightnav{
+    
+    width: 50%;
+    text-align:right;
+}
+#search{
+    padding:5px;
+    border-radius: 3px;
+    font-size: 17px;
+    border: solid white 3px;
+}
+.background{
+    background: rgba(0,0,0, 0.7)url('background.jpg');
+    background-size: cover;
+    background-blend-mode:normal;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 50%;
+}
+.firsthalf{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 30%;
+    padding: 4px;
+    border-radius: 150px;
+    border: solid 5px black;
+}
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 10px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 3px black;
+    background: none;
+    vertical-align: middle;
+}
+.btn:hover{
+    text-decoration:solid;
+    color: green;
+}
+.secright{
+    height: 10px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: fit-content;
+
+}
+.secleft{
+    height: 10px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: fit-content;
+    flex-direction: row;
+
+} 
